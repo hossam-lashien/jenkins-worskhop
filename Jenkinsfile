@@ -7,7 +7,7 @@ pipeline {
     stages {
         stage("Hello!\nPlease read the logs.") {
             steps {
-                echo "Hello!.\n\nIf you are working with the exercise files and see this message, you have successfully connected to the repo.\n\nyou will need to update your project configuration to use the path to the Jenkinsfile."
+                echo "Hello!.\n\nIn case you are working with the exercise files and see this message, you have successfully connected to the repo.\n\nyou will need to update your project configuration to use the path to the Jenkinsfile."
             }
         }
     }
